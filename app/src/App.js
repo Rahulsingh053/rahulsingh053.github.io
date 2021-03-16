@@ -1,13 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import Headers from './components/header';
-import Footer from './components/footer';
+import "./App.css";
+import ThemeOne from "./pages/one";
 
 function App() {
   return (
     <div className="App">
-      <Headers />
-      <Footer/>
+      <ThemeOne />
     </div>
   );
 }
